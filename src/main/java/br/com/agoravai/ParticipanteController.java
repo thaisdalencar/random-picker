@@ -34,8 +34,8 @@ public class ParticipanteController {
 	public String salvar (@RequestParam("nome") String nome, 
 			@RequestParam("numero") int numero, @RequestParam("email") String email, Model model) {
 		
-		String myEmail = "thaisdalencar@gmail.com";
-		String myPsw = "88663899";
+		String myEmail = "email@gmail.com";
+		String myPsw = "123456";
 		String subject = "Você foi convidado para um sorteio";
 		String msg = "Olá," + nome + ". Você está participando de um sorteio";
 		
